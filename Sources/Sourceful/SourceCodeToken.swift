@@ -16,6 +16,8 @@ public enum SourceCodeTokenType {
 	case keyword
 	case comment
 	case editorPlaceholder
+    case cmdlet
+    case variable
 }
 
 protocol SourceCodeToken: Token {
