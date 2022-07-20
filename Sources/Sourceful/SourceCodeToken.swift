@@ -16,8 +16,9 @@ public enum SourceCodeTokenType {
 	case keyword
 	case comment
 	case editorPlaceholder
+    //FGR Additions
     case cmdlet
-    case variable
+    case operater //mispelled on purpose to not collide with keyword
 }
 
 protocol SourceCodeToken: Token {

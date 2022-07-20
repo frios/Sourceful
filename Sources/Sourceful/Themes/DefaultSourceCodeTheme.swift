@@ -49,13 +49,12 @@ public struct DefaultSourceCodeTheme: SourceCodeTheme {
             
         case .editorPlaceholder:
             return backgroundColor
-            
-        case .variable:
-            return Color.systemRed
-            
+
         case .cmdlet:
             return Color.systemGreen
             
+        case .operater:
+            return Color.systemPurple
         }
 	}
 	
